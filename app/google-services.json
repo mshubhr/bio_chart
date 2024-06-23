@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "459833434042",
+    "project_id": "galanto-5d6de",
+    "storage_bucket": "galanto-5d6de.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:459833434042:android:8966e65666f3c44f8ec783",
+        "android_client_info": {
+          "package_name": "com.project.galanto"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA1nL1n_Zwl3iC5WIA7C55czGa9Hql6-4g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

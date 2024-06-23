@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/successRateText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        android:layout_margin="4dp"/>
+
+    <com.github.lzyzsd.circleprogress.DonutProgress
+        android:id="@+id/successRateProgress"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        app:donut_finished_color="@android:color/holo_blue_dark"
+        app:donut_unfinished_color="@android:color/darker_gray"
+        app:donut_text="88"
+        app:donut_inner_bottom_text="Success Rate"
+        app:donut_max="100"
+        app:donut_progress="88"
+        app:donut_text_size="20sp"
+        app:donut_inner_bottom_text_size="12sp" />
+</LinearLayout>

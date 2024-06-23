@@ -1,0 +1,51 @@
+[versions]
+agp = "8.5.0"
+constraintlayout = "2.1.4"
+drawerlayout = "1.2.0"
+firebaseAnalytics = "22.0.1"
+firebaseBom = "33.1.0"
+firebaseDatabase = "21.0.0"
+kotlin = "1.9.0"
+coreKtx = "1.13.1"
+junit = "4.13.2"
+junitVersion = "1.1.5"
+espressoCore = "3.5.1"
+lifecycleRuntimeKtx = "2.8.2"
+activityCompose = "1.9.0"
+composeBom = "2024.04.01"
+appcompat = "1.7.0"
+firebaseDatabaseKtx = "21.0.0"
+material = "1.12.0"
+materialVersion = "1.9.0"
+donutProgressBar = "1.2.1"
+
+[libraries]
+androidx-constraintlayout = { module = "androidx.constraintlayout:constraintlayout", version.ref = "constraintlayout" }
+androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
+androidx-drawerlayout = { module = "androidx.drawerlayout:drawerlayout", version.ref = "drawerlayout" }
+firebase-analytics = { module = "com.google.firebase:firebase-analytics" }
+firebase-bom = { module = "com.google.firebase:firebase-bom", version.ref = "firebaseBom" }
+firebase-database = { module = "com.google.firebase:firebase-database", version.ref = "firebaseDatabase" }
+google-firebase-analytics = { module = "com.google.firebase:firebase-analytics", version.ref = "firebaseAnalytics" }
+junit = { group = "junit", name = "junit", version.ref = "junit" }
+androidx-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
+androidx-espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCore" }
+androidx-lifecycle-runtime-ktx = { group = "androidx.lifecycle", name = "lifecycle-runtime-ktx", version.ref = "lifecycleRuntimeKtx" }
+androidx-activity-compose = { group = "androidx.activity", name = "activity-compose", version.ref = "activityCompose" }
+androidx-compose-bom = { group = "androidx.compose", name = "compose-bom", version.ref = "composeBom" }
+androidx-ui = { group = "androidx.compose.ui", name = "ui" }
+androidx-ui-graphics = { group = "androidx.compose.ui", name = "ui-graphics" }
+androidx-ui-tooling = { group = "androidx.compose.ui", name = "ui-tooling" }
+androidx-ui-tooling-preview = { group = "androidx.compose.ui", name = "ui-tooling-preview" }
+androidx-ui-test-manifest = { group = "androidx.compose.ui", name = "ui-test-manifest" }
+androidx-ui-test-junit4 = { group = "androidx.compose.ui", name = "ui-test-junit4" }
+androidx-material3 = { group = "androidx.compose.material3", name = "material3" }
+androidx-appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
+firebase-database-ktx = { group = "com.google.firebase", name = "firebase-database-ktx", version.ref = "firebaseDatabaseKtx" }
+material = { module = "com.google.android.material:material", version.ref = "material" }
+material-v190 = { module = "com.google.android.material:material", version.ref = "materialVersion" }
+donutProgressBar = {group = "com.github.lzyzsd",name = "circleprogress" , version.ref = "donutProgressBar"}
+
+[plugins]
+android-application = { id = "com.android.application", version.ref = "agp" }
+jetbrains-kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
